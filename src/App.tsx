@@ -55,7 +55,6 @@ const App = () => {
     const nextQ = number + 1;
     nextQ === TOTAL_QUESTIONS ? setGameover(true) : setNumber(nextQ);
   };
-
   return (
   <>
   <GlobalStyle />
